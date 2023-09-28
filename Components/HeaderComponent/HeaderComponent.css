@@ -1,0 +1,13 @@
+.portfolio{
+    padding:1rem;
+    text-align: center;
+}
+
+.portfolio >h1{
+    font-size: 4vw;
+}
+
+.banner{
+    height: 2rem;
+    background-color: rgb(3, 3, 3);
+}
