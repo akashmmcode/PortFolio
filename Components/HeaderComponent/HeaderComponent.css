@@ -5,9 +5,22 @@
 
 .portfolio >h1{
     font-size: 4vw;
+    background: repeating-linear-gradient(45deg, black, black 50px, transparent 50px, transparent 100px);
+    
 }
 
 .banner{
-    height: 2rem;
+    /* height: 2rem; */
     background-color: rgb(3, 3, 3);
+    color: aliceblue;
+    
 }
+
+@media screen and (max-width: 768px) {
+    .banner >h1 {
+        font-size: 4vw;
+    }
+    .portfolio >h1{
+        font-size: 8vw;
+    }
+  }
