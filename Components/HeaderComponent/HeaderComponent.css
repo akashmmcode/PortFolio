@@ -1,26 +1,47 @@
-.portfolio{
-    padding:1rem;
-    text-align: center;
+.portfolio {
+  padding: 1rem;
+  text-align: center;
 }
 
-.portfolio >h1{
-    font-size: 4vw;
-    background: repeating-linear-gradient(45deg, black, black 50px, transparent 50px, transparent 100px);
-    
+.portfolio > h1 {
+  font-size: 4vw;
+  color: #ff5722;
+  background: repeating-linear-gradient(
+    45deg,
+    black,
+    black 50px,
+    transparent 50px,
+    transparent 100px
+  );
 }
 
-.banner{
-    /* height: 2rem; */
-    background-color: rgb(3, 3, 3);
-    color: aliceblue;
-    
+.banner {
+  background-color: rgb(3, 3, 3);
+  color: aliceblue;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
-    .banner >h1 {
-        font-size: 4vw;
-    }
-    .portfolio >h1{
-        font-size: 8vw;
-    }
+  .banner > h1 {
+    font-size: 4vw;
   }
+  .portfolio > h1 {
+    font-size: 8vw;
+  }
+}
+
+.color-pallet > div {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.color-pallet {
+  display: flex;
+}
+
+.abc {
+  display: flex;
+}
