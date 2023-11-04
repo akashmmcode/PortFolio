@@ -18,9 +18,6 @@ const HeaderComponent = () => {
           <div style={{ backgroundColor: "lightblue" }}></div>
         </section>
       </div>
-      <div className="portfolio">
-        <h1>" PORTFOLIO "</h1>
-      </div>
     </>
   );
 };
