@@ -1,0 +1,23 @@
+.portfolio {
+  padding: 1rem;
+}
+
+.portfolio > h1 {
+  background: repeating-linear-gradient(
+    135deg,
+    black,
+    black 50px,
+    transparent 50px,
+    transparent 100px
+  );
+  height: 2rem;
+  width: 100%;
+  margin: auto;
+  letter-spacing: -1px;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio > h1 {
+    font-size: 8vw;
+  }
+}

@@ -1,0 +1,19 @@
+.desc {
+  display: flex;
+  padding: 1rem;
+}
+
+.desc > section:first-child {
+  width: 30%;
+  background-color: #fa5014;
+}
+
+.desc > section:nth-child(2) {
+  width: 20%;
+}
+
+.vertical-text {
+  text-align: center;
+  writing-mode: vertical-rl; /* or vertical-lr */
+  text-orientation: upright;
+}
