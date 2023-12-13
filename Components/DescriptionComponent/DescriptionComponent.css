@@ -17,3 +17,22 @@
   writing-mode: vertical-rl; /* or vertical-lr */
   text-orientation: upright;
 }
+
+.right-content{
+  width: 50%;
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .desc {
+    flex-direction: column; /* Stack sections vertically on smaller screens */
+  }
+  .desc > section:first-child {
+    width: 100%;
+    background-color: #fa5014;
+  }
+  .vertical-text {
+    display: none;
+  }
+}

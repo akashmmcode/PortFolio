@@ -15,6 +15,7 @@ const DescriptionComponent = () => {
         <section className="vertical-text">
           <h4>=SECTION=</h4>
         </section>
+        
         <section className="vertical-text">
           <h4>=SECTION=</h4>
         </section>
