@@ -1,6 +1,7 @@
 .desc {
   display: flex;
   padding: 1rem;
+  justify-content: space-between;
 }
 
 .desc > section:first-child {
@@ -8,20 +9,13 @@
   background-color: #fa5014;
 }
 
-.desc > section:nth-child(2) {
-  width: 20%;
-}
 
-.vertical-text {
-  text-align: center;
-  writing-mode: vertical-rl; /* or vertical-lr */
-  text-orientation: upright;
-}
 
-.right-content{
+
+/* .right-content{
   width: 50%;
 }
-
+ */
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
@@ -35,4 +29,19 @@
   .vertical-text {
     display: none;
   }
+ 
+  .details{
+    display: none;
+  }
+}
+
+
+.barcode{
+  margin-top: 10px;
+}
+
+.details{
+  transform: rotate(90deg);
+  height: 11rem;
+
 }
