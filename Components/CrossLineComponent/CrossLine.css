@@ -30,3 +30,25 @@
 marquee{
   font-size: 4rem;
 }
+
+
+
+.marquee-container {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.marquee-text {
+  display: inline-block;
+  animation: marquee 30s linear infinite; /* Adjust the speed by changing the animation duration */
+  font-size: 10rem;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

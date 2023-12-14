@@ -6,6 +6,8 @@ import {
   HeaderComponent,
   CrossLine,
   DescriptionComponent,
+  ScrollImageComponent,
+  RoleComponent
 } from "../Components";
 import "./index.css";
 
@@ -14,6 +16,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <HeaderComponent />
     <CrossLine />
     <DescriptionComponent />
+    <ScrollImageComponent/>
+    <RoleComponent/>
     <TributeComponent />
   </React.StrictMode>
 );

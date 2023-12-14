@@ -1,4 +1,5 @@
 import "./DescriptionComponent.css";
+import akash from "../../src/assets/AKASH.png"
 
 const DescriptionComponent = () => {
   return (
@@ -11,14 +12,13 @@ const DescriptionComponent = () => {
             experiences with the precision of a designer and the technical
             finesse of a developer.
           </h3>
+          <img className="barcode" src={akash}></img>
         </section>
-        <section className="vertical-text">
-          <h4>=SECTION=</h4>
-        </section>
-        
-        <section className="vertical-text">
-          <h4>=SECTION=</h4>
-        </section>
+          <div className="details">
+            <h5>AKASH.MM - BANGLORE</h5>
+            <h5>FRONT END DEVELOPER</h5>
+            <h5>JULY 12,2021 - PRESENT</h5>
+          </div>
       </div>
     </>
   );

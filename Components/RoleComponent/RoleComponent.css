@@ -1,0 +1,31 @@
+.role-outer-div{
+    display: flex;
+}
+
+.child {
+    width: 50%;
+}
+
+.child h1{
+    font-size: 7rem;
+    text-align: end;
+    padding: 5%;
+}
+
+.child h1{
+    /* Default styles */
+    color: black; /* You can set the initial color */
+    transition: color 0.3s; /* Add a smooth transition effect */
+  }
+  
+.child h1:hover {
+    /* Styles on hover */
+    color: #fa5014; /* Change the color to your desired value */
+  }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .child{
+        width: 100%;
+    }
+  }
