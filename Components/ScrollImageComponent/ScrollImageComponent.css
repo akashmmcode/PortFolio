@@ -2,3 +2,21 @@
 .upside-down-text {
     text-align: end;
   }
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .upside-down-text img{
+        width: 100%;
+    }
+  }
+
+
+  /* big screens */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .upside-down-text img{
+        width: 100%;
+    }
+    
+  }
+  

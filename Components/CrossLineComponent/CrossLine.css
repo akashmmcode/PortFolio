@@ -17,22 +17,6 @@
 }
 
 
-
-@media screen and (max-width: 768px) {
-  .portfolio > h1 {
-    font-size: 8vw;
-  }
-}
-
-
-
-
-marquee{
-  font-size: 4rem;
-}
-
-
-
 .marquee-container {
   white-space: nowrap;
   overflow: hidden;
@@ -40,7 +24,7 @@ marquee{
 
 .marquee-text {
   display: inline-block;
-  animation: marquee 30s linear infinite; /* Adjust the speed by changing the animation duration */
+  animation: marquee 30s linear infinite;
   font-size: 10rem;
 }
 
@@ -52,3 +36,18 @@ marquee{
     transform: translateX(-100%);
   }
 }
+
+
+@media screen and (max-width: 768px) {
+  .portfolio > h1 {
+    font-size: 8vw;
+  }
+
+  .marquee-text {
+    display: inline-block;
+    animation: marquee 30s linear infinite; /* Adjust the speed by changing the animation duration */
+    font-size: 3rem;
+  }
+}
+
+
