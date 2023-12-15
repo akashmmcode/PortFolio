@@ -10,7 +10,7 @@ h2 {
 
   @media screen and (max-width: 768px) {
     img {
-      width: 100% !important;
-      border: 3px solid red; /* Debugging border */
+      width: 80% !important
+      /* border: 3px solid black; Debugging border */
     }
   }

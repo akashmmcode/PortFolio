@@ -2,30 +2,41 @@
     display: flex;
 }
 
-.child {
-    width: 50%;
+.role-outer-div > .child:first-child {
+    width: 40%;
+}
+
+.role-outer-div > .child:nth-child(2) {
+    width: 60%;
+    word-break: break-all;
 }
 
 .child h1{
     font-size: 7rem;
     text-align: end;
-    padding: 5%;
+    padding: 2%;
+}
+.child span{
+    background-color: #fa5014;
 }
 
-.child h1{
-    /* Default styles */
-    color: black; /* You can set the initial color */
-    transition: color 0.3s; /* Add a smooth transition effect */
-  }
-  
-.child h1:hover {
-    /* Styles on hover */
-    color: #fa5014; /* Change the color to your desired value */
-  }
 
-/* Media query for smaller screens */
 @media (max-width: 768px) {
-    .child{
-        width: 100%;
+    .child h1{
+        font-size: 3rem;
+        text-align: end;
+        padding: 2%;
     }
   }
+  
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+   
+    .child h1{
+        font-size: 7rem;
+        text-align: end;
+        padding: 2%;
+    }
+  }
+  
+  
+  

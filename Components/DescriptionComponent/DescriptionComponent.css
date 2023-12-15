@@ -9,13 +9,12 @@
   background-color: #fa5014;
 }
 
-
-
-
-/* .right-content{
-  width: 50%;
+section h3{
+  padding: 1rem;
 }
- */
+
+
+
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
@@ -36,12 +35,13 @@
 }
 
 
-.barcode{
-  margin-top: 10px;
+/* big screens */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+ 
+  .desc > section:first-child {
+    width: 50%;
+    background-color: #fa5014;
+  }
 }
 
-.details{
-  transform: rotate(90deg);
-  height: 11rem;
 
-}
