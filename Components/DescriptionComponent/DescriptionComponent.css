@@ -9,12 +9,27 @@
   background-color: #fa5014;
 }
 
-section h3{
+section h3 {
   padding: 1rem;
 }
 
+.blackbanner {
+  display: flex;
+}
 
+.blackbanner > h1:first-child {
+  padding: 5px;
+  color: white;
+  background-color: black;
+  width: 20rem;
+  height: 3rem;
+}
 
+.blackbanner > h1:nth-child(2) {
+  background-color: #fa5014;
+  height: 3rem;
+  padding: 4px;
+}
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
@@ -28,20 +43,16 @@ section h3{
   .vertical-text {
     display: none;
   }
- 
-  .details{
+
+  .details {
     display: none;
   }
 }
 
-
 /* big screens */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
- 
   .desc > section:first-child {
     width: 50%;
     background-color: #fa5014;
   }
 }
-
-

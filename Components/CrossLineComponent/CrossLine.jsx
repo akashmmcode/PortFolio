@@ -1,6 +1,10 @@
 import "./CrossLine.css";
+import React from "react";
+import gsap from "gsap";
 
 const CrossLine = () => {
+  React.useEffect(() => {});
+
   return (
     <>
       <div className="portfolio">
@@ -9,7 +13,7 @@ const CrossLine = () => {
       <div className="marquee-container">
         <h1 className="marquee-text">"WEB DEVELOPER" - "DIGITAL DESIGNER"</h1>
       </div>
-      <h1>"THIS IS A PORTFOLIO"</h1>
+      <h1 className="port">"THIS IS A PORTFOLIO"</h1>
     </>
   );
 };
