@@ -1,42 +1,37 @@
-.role-outer-div{
-    display: flex;
+.role-outer-div {
+  display: flex;
 }
 
 .role-outer-div > .child:first-child {
-    width: 40%;
+  width: 40%;
 }
 
 .role-outer-div > .child:nth-child(2) {
-    width: 60%;
-    word-break: break-all;
+  width: 60%;
+  word-break: break-all;
 }
 
-.child h1{
+.child h1 {
+  font-size: 7rem;
+  text-align: end;
+  padding: 2%;
+}
+.child span {
+  background-color: #fa5014;
+}
+
+@media (max-width: 768px) {
+  .child h1 {
+    font-size: 3rem;
+    text-align: end;
+    padding: 2%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .child h1 {
     font-size: 7rem;
     text-align: end;
     padding: 2%;
-}
-.child span{
-    background-color: #fa5014;
-}
-
-
-@media (max-width: 768px) {
-    .child h1{
-        font-size: 3rem;
-        text-align: end;
-        padding: 2%;
-    }
   }
-  
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
-   
-    .child h1{
-        font-size: 7rem;
-        text-align: end;
-        padding: 2%;
-    }
-  }
-  
-  
-  
+}
