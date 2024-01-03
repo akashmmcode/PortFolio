@@ -12,7 +12,7 @@
 }
 
 .child h1 {
-  font-size: 7rem;
+  font-size: 6rem;
   text-align: end;
   padding: 2%;
 }
@@ -20,17 +20,30 @@
   background-color: #fa5014;
 }
 
+.process_outer_div{
+  text-align: end;
+}
+
+.process{
+  width: 60vw;
+}
+
+
+
 @media (max-width: 768px) {
   .child h1 {
     font-size: 3rem;
     text-align: end;
     padding: 2%;
   }
+  .process{
+    width: 100vw !important;
+  }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .child h1 {
-    font-size: 7rem;
+    font-size: 6rem;
     text-align: end;
     padding: 2%;
   }
