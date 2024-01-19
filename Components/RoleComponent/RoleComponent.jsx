@@ -34,20 +34,20 @@ const RoleComponent = ()=>{
     return(
         <>
         <div className="role-outer-div">
-            <section className="child">
-            </section>
+            {/* <section className="child">
+            </section> */}
             <section className="child"> 
-                <h1 className="hello">FRONT END <span>ADDICT</span>.</h1>
-                <h1 className="hello"><span>PIXEL</span>PERFECT.</h1>
+                <h1 className="hello">FRONT END <span>ADDICT</span>.&nbsp;&nbsp; &nbsp;<span>ACCESS</span>IBILITY.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; PRIVACY.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span>PIXEL</span>PERFECT. <span>RESPONSIVE</span>.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;LOVE DISCOVERING NEW <span>CREATIVE</span> WORDLS. &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; END.</h1>
+                {/* <h1 className="hello"><span>PIXEL</span>PERFECT.</h1>
                 <h1 className="hello"><span>RESPONSIVE</span>.</h1>
                 <h1 className="hello">LOVE DISCOVERING NEW <span>CREATIVE</span> WORDLS.</h1>
                 <h1 className="hello"><span>ACCESS</span>IBILITY.</h1>
-                <h1 className="hello">PRIVACY.</h1>
+                <h1 className="hello">PRIVACY.</h1> */}
             </section>
         </div>
-          <div className="process_outer_div">
+          {/* <div className="process_outer_div">
             <img className="process" src={process}></img>
-          </div>
+          </div> */}
         </>
     )
 }

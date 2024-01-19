@@ -1,0 +1,20 @@
+.process_outer_div{
+    text-align: center;
+  }
+  
+  .process{
+    width: 60vw;
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    /* .child h1 {
+      font-size: 3rem;
+      text-align: end;
+      padding: 2%;
+    } */
+    .process{
+      width: 100vw !important;
+    }
+  }

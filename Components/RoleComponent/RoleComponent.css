@@ -1,19 +1,20 @@
-.role-outer-div {
+/* .role-outer-div {
   display: flex;
-}
+} */
 
-.role-outer-div > .child:first-child {
+/* .role-outer-div > .child:first-child {
   width: 40%;
 }
 
 .role-outer-div > .child:nth-child(2) {
   width: 60%;
   word-break: break-all;
-}
+} */
 
 .child h1 {
   font-size: 6rem;
-  text-align: end;
+  word-break: break-all;
+  /* text-align: end; */
   padding: 2%;
 }
 .child span {
@@ -21,7 +22,7 @@
 }
 
 .process_outer_div{
-  text-align: end;
+  text-align: center;
 }
 
 .process{
