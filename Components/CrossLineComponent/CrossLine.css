@@ -5,8 +5,8 @@
 .portfolio > h1 {
   background: repeating-linear-gradient(
     135deg,
-    black,
-    black 50px,
+    #1d1d1b,
+    #1d1d1b 50px,
     transparent 50px,
     transparent 100px
   );
@@ -19,9 +19,9 @@
 .marquee-container {
   white-space: nowrap;
   overflow: hidden;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
-  background-color: black;
+  border-top: 3px solid #1d1d1b;
+  border-bottom: 3px solid #1d1d1b;
+  background-color: #1d1d1b;
 }
 
 .marquee-text {
@@ -29,6 +29,11 @@
   animation: marquee 30s linear infinite;
   font-size: 10rem;
   color: #fefae0;
+}
+
+.name{
+  background-color: #1d1d1b;
+  color:#c4beb4;
 }
 
 @keyframes marquee {
