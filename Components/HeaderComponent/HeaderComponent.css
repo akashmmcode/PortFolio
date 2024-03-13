@@ -1,14 +1,33 @@
 .banner {
-  background-color: #1d1d1b;
-  color: aliceblue;
+  color: #1d1d1b;
   padding: 0.3rem;
   display: flex;
   justify-content: space-between;
 }
 
+/* Move this rule to the top of your stylesheet */
+@font-face {
+  font-family: headingfont;
+  src: url('../../src/assets/chomsky/Chomsky.otf') format('opentype');
+}
+
+.heading {
+  font-size: 4vw;
+  font-family: headingfont, Arial, sans-serif;
+  font-weight: 100;
+}
+
+.heading-div{
+  margin: auto;
+}
+
+
+
 @media screen and (max-width: 768px) {
   .banner > h1 {
     font-size: 4vw;
+    font-family: headingfont, Arial, sans-serif;
+
   }
   
 }
@@ -25,4 +44,23 @@
 
 .abc {
   display: flex;
+}
+
+
+.horizontal-line{
+  width: auto;
+  background-color: #1d1d1b;
+  height: 1px;
+  padding: 0;
+}
+
+.print-details{
+  border: 1px solid #1d1d1b;
+  width: 10vw;
+  word-wrap: break-word;
+}
+
+.print-details >h3{
+  font-weight: 100;
+  font-size: 27px;
 }
