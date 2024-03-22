@@ -17,7 +17,7 @@ const CrossLine = () => {
       <div className="name">
         <h1>Portfolio</h1>
       </div>
-      <h1 className="port">"THIS IS A PORTFOLIO"</h1>
+      {/* <h1 className="port">"THIS IS A PORTFOLIO"</h1> */}
     </>
   );
 };

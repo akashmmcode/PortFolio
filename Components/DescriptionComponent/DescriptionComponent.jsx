@@ -2,6 +2,7 @@ import "./DescriptionComponent.css";
 import akash from "../../src/assets/AKASH.png";
 import React from "react";
 import gsap from "gsap";
+import photo from '../../src/assets/profiledp.svg'
 
 const DescriptionComponent = () => {
   React.useEffect(() => {
@@ -18,6 +19,22 @@ const DescriptionComponent = () => {
   });
   return (
     <>
+
+      <div className="about_outer_div">
+        <div className="front_end_addict_outer_div">
+          <h1 className="front_end">FRONT-END</h1>
+          <div className="horizontal-line"></div>
+
+          <h1 className="addict">ADDICT!</h1>
+          <div className="horizontal-line"></div>
+
+        </div>
+        <div className="photo_outer_div">
+          <img className="profilephoto" src={photo}></img>
+        </div>
+      </div>
+
+
       <div className="desc">
         <section>
           <h3>

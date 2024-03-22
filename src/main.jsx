@@ -10,7 +10,7 @@ import {
   ScrollImageComponent,
   RoleComponent,
   JourneyComponent,
-  TechStackComponent
+  TechStackComponent,
 } from "../Components";
 import "./index.css";
 
@@ -22,7 +22,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <ScrollImageComponent/>
     <RoleComponent/>
     <TributeComponent />
-    <JourneyComponent/>
+    {/* <JourneyComponent/> */}
     <TechStackComponent/>
   </React.StrictMode>
 );

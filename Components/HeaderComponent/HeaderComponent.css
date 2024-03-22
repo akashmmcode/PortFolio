@@ -2,7 +2,8 @@
   color: #1d1d1b;
   padding: 0.3rem;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Move this rule to the top of your stylesheet */
@@ -17,20 +18,15 @@
   font-weight: 100;
 }
 
+.heading-details{
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
 .heading-div{
   margin: auto;
 }
 
-
-
-@media screen and (max-width: 768px) {
-  .banner > h1 {
-    font-size: 4vw;
-    font-family: headingfont, Arial, sans-serif;
-
-  }
-  
-}
 
 .color-pallet > div {
   width: 1rem;
@@ -54,13 +50,31 @@
   padding: 0;
 }
 
+.band-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .print-details{
   border: 1px solid #1d1d1b;
-  width: 10vw;
+  /* width: 10vw; */
   word-wrap: break-word;
 }
 
 .print-details >h3{
   font-weight: 100;
   font-size: 27px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .heading{
+    font-size: 15vw;
+    font-family: headingfont, Arial, sans-serif;
+
+  }
+  
 }

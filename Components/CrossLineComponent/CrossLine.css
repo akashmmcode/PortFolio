@@ -34,7 +34,16 @@
 .name{
   background-color: #1d1d1b;
   color:#c4beb4;
+  margin-bottom: -30px;
+  margin-top: 1%;
 }
+
+.name >h1{
+  font-size: 20vw;
+  letter-spacing: 20px;
+} 
+
+
 
 @keyframes marquee {
   from {
@@ -72,4 +81,13 @@
     animation: marquee 30s linear infinite; /* Adjust the speed by changing the animation duration */
     font-size: 3rem;
   }
+}
+
+
+@media screen and (max-width: 768px) {
+  .name >h1{
+    font-size: 15vw;
+    letter-spacing: 5px;
+  }
+  
 }
