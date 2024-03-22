@@ -27,6 +27,34 @@
   width: 30%;
 }
 
+.about_outer_div{
+  display: flex;
+  margin-top: 5%;
+
+}
+
+.front_end_addict_outer_div{
+  line-height: 8vw;
+  flex: 40%;
+}
+
+.front_end{
+  font-weight: 100;
+  font-size: 8.2vw;
+}
+
+.addict{
+  font-weight: 100;
+  font-size: 14vw;
+}
+
+.photo_outer_div{
+  flex: 60%;
+  text-align: center;
+  border-left: 1px solid gray;
+}
+
+
 section h3 {
   padding: 1rem;
   border-bottom: 2px solid;
@@ -49,6 +77,19 @@ section h3 {
   background-color: #fa5014;
   height: 3rem;
   padding: 4px;
+}
+
+.profilephoto{
+  border: 1px solid;
+  padding: 0;
+}
+
+
+.horizontal-line{
+  width: auto;
+  background-color: grey;
+  height: 1px;
+  padding: 0;
 }
 
 /* Media query for smaller screens */
