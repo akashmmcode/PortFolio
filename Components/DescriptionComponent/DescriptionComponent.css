@@ -1,19 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&display=swap');
 
+
+@font-face {
+  font-family: g_and_o;
+  src: url('../../src/assets/serizawa/SerizawaRegular-DOEgE.otf') format('opentype');
+}
+
+
 .desc {
   display: flex;
   padding: 1rem;
   justify-content: space-between;
-  background-color: #fa5014;
-  border: 2px solid #000;
+  background-color: #1d1d1b;
+  border: 2px solid #1d1d1b;
+  height: 25vw;
+  width: 75vw;
 }
 
+.desc >h1{
+    /* color: #c4beb4; */
+    color: #b7ad9c;
+    font-size: 26vw;
+    padding: 0;
+}
 
 .description{
   line-height: 1.3;
   font-family: "Imbue", serif;
   font-size: xxx-large;
   font-weight: 300;
+  color: #1d1d1b;
+}
+
+.short{
+  font-family: "g_and_o", serif;
+  font-size: 11.5rem;
+  padding: 0;
+}
+
+.shortc{
+  font-family: "g_and_o", serif;
+  font-size: 18.5rem;
+  padding: 0;
 }
 
 .barcode{
@@ -21,25 +49,18 @@
   background-color: #fefae0;
 }
 
-.details{
-  /* border: 2px solid #fefae0; */
+/* .details{
+  border: 2px solid #fefae0;
   background-color: #000;
   color: #fefae0;
-}
+} */
 
 
-.desc section{
-  background-color: #000;
-  color: #fefae0;
-}
 
-.desc > section:first-child {
-  width: 30%;
-}
 
 .about_outer_div{
   display: flex;
-  margin-top: 5%;
+  margin-top: 2%;
   /* flex-wrap: wrap; */
 
 }
@@ -71,27 +92,27 @@
 .techstack{
   border: 1px solid;
   padding: 0;
-  margin-top: 10%;
+  margin-top: 2%;
 
 }
 
-.blackbanner {
+/* .blackbanner {
   display: flex;
-}
+} */
 
-.blackbanner > h1:first-child {
+/* .blackbanner > h1:first-child {
   padding: 5px;
   color: white;
   background-color: black;
   width: 20rem;
   height: 3rem;
-}
+} */
 
-.blackbanner > h1:nth-child(2) {
+/* .blackbanner > h1:nth-child(2) {
   background-color: #fa5014;
   height: 3rem;
   padding: 4px;
-}
+} */
 
 .profilephoto{
   border: 1px solid;
@@ -102,6 +123,9 @@
 .photo_outer_div > h1{
   font-size: 8.5vw;
   font-weight: 100;
+  letter-spacing: -8px;
+  color: #1d1d1b;
+  padding: 0;
 }
 
 
@@ -114,15 +138,14 @@
   padding: 0;
 }
 
+
+
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .desc {
     flex-direction: column; /* Stack sections vertically on smaller screens */
   }
-  .desc > section:first-child {
-    width: 100%;
-    background-color: #fa5014;
-  }
+ 
   .vertical-text {
     display: none;
   }
@@ -131,14 +154,28 @@
     display: none;
   }
 
+  .profilephoto{
+    height: 18rem;
+  }
+
+  .description{
+    font-size: xx-large;
+  }
+
+  .short{
+    font-size: 4.5rem;
+
+  }
+
+  .shortc{
+    font-size: 7.2rem;
+  }
+
 }
 
 /* big screens */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .desc > section:first-child {
-    width: 50%;
-    background-color: #fa5014;
-  }
+  
 }
 
 

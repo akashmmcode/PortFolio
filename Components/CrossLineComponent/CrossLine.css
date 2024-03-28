@@ -33,9 +33,11 @@
 
 .name{
   background-color: #1d1d1b;
-  color:#c4beb4;
+  /* color:#c4beb4; */
+  color: #b7ad9c;
   margin-bottom: -30px;
   margin-top: 1%;
+  text-align: center;
 }
 
 .name >h1{
