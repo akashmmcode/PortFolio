@@ -15,6 +15,7 @@
   border: 2px solid #1d1d1b;
   height: 25vw;
   width: 75vw;
+  margin-top: 3rem;
 }
 
 .desc >h1{
@@ -55,7 +56,9 @@
   color: #fefae0;
 } */
 
-
+.stamp{
+  margin-left: 6rem;
+}
 
 
 .about_outer_div{
@@ -126,6 +129,7 @@
   letter-spacing: -8px;
   color: #1d1d1b;
   padding: 0;
+  margin-top: 2rem;
 }
 
 
@@ -137,6 +141,16 @@
   height: 1px;
   padding: 0;
 }
+
+
+.horizontal-line1, .horizontal-line2, .horizontal-line3 {
+  width: auto;
+  background-color:grey;
+  height: 1px;
+  padding: 0;
+  margin-top: -101px;
+}
+
 
 
 

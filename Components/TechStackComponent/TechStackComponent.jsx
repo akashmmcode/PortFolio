@@ -5,7 +5,8 @@ import { RiHtml5Line } from "react-icons/ri";
 
 
 
-const TechStackComponent = ()=>{
+const TechStackComponent = (props)=>{
+    console.log(props);
     return(
         <div className="tech">
             <RiHtml5Line className="html"/>

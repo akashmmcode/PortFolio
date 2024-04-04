@@ -5,6 +5,7 @@ import gsap from "gsap";
 import photo from "../../src/assets/profiledp.svg";
 import photo1 from "../../src/assets/cartoondp.png";
 import photo2 from "../../src/assets/frontend.png";
+import stamp from "../../src/assets/stamp.png"
 
 const DescriptionComponent = () => {
   React.useEffect(() => {
@@ -44,17 +45,18 @@ const DescriptionComponent = () => {
         <div className="photo_outer_div">
           <img className="profilephoto" src={photo1}></img>
           <h1>DESI<span className="short">G</span>N-VEL<span className="short">O</span>PER</h1>
-          <div className="horizontal-line"></div>
+          <div className="horizontal-line1"></div>
           <h1><span className="short">C</span>REATIVE DEVEL<span className="short">O</span>PER</h1>
-          <div className="horizontal-line"></div>
+          <div className="horizontal-line2"></div>
           <h1>BASED IN BAN<span className="short">G</span>AL<span className="short">O</span>RE,IN.</h1>
-          <div className="horizontal-line"></div> 
+          <div className="horizontal-line3"></div> 
 
         </div>
       </div>
 
       <div className="desc">
        <h1>WEBSITE</h1>
+       <img className="stamp" src={stamp}></img>
       </div>
     </>
   );
