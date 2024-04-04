@@ -24,5 +24,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <TributeComponent />
     {/* <JourneyComponent/> */}
     <TechStackComponent/>
+
   </React.StrictMode>
 );
