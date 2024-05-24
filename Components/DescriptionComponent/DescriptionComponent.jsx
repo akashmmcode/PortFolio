@@ -50,7 +50,6 @@ const DescriptionComponent = () => {
           <div className="horizontal-line2"></div>
           <h1>BASED IN BAN<span className="short">G</span>AL<span className="short">O</span>RE,IN.</h1>
           <div className="horizontal-line3"></div> 
-
         </div>
       </div>
 
